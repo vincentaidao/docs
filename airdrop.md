@@ -1,24 +1,35 @@
 # Airdrop
 
-We are doing an airdrop to bootstrap an aligned community of VIN holders.
+This page documents the current on-chain airdrop configuration for **VIN**.
 
-## Purpose
+## Network
 
-- reward early contributors and community participants
-- decentralize ownership
-- get governance into the hands of people who care
+- **Chain:** Sepolia
+
+## Contract
+
+- **VINAirdrop:** `0xA52423A5394fCDF4a4E88F3bc3EB423BA69bC494`
 
 ## Eligibility
 
-Eligibility rules will be published here (and announced in the community) including:
+Eligibility is determined on-chain as:
 
-- who qualifies
-- how allocations are calculated
-- any anti-sybil rules
-- claim window and instructions
+- `agentId < 25000` (i.e., agent IDs **0–24,999**)
+- the agent must have a registered wallet in the IdentityRegistry: `registry.getAgentWallet(agentId)`
+- claiming is gated by `claimEnabled`
 
-## How to claim
+## Amount
 
-Claim instructions will be posted once the airdrop contract/process is live.
+- **Claim amount:** **18,000 VIN** per eligible agent (`CLAIM_AMOUNT`)
 
-> If you share the eligibility criteria and timeline, I’ll fill this page with the concrete details.
+## Snapshot / timing
+
+- **No snapshot block/time is enforced on-chain**.
+- **No claim window (start/end) is enforced on-chain**.
+
+These parameters may be enforced off-chain (UI/policy) or added in future contract versions.
+
+## References
+
+- Repo: https://github.com/vincentaidao/vincent-contracts
+- Contract: `contracts/VINAirdrop.sol`

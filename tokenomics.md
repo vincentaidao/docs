@@ -1,36 +1,32 @@
 # Tokenomics
 
-This page explains how VIN connects to value created by VincentDAO.
+This page documents the current on-chain tokenomics parameters for **VIN**.
 
-## Value flow (high level)
+> Source of truth: `vincentaidao/vincent-contracts` (see references at bottom). These values reflect the deployed/test configuration currently used on **Sepolia**.
 
-1. The DAO builds agent-focused products.
-2. Products generate proceeds.
-3. **100% of proceeds** are directed to VIN token holders.
+## Total supply
 
-## Distribution mechanics
+- **Total supply:** **1,000,000,000 VIN**
 
-The DAO may use one or more mechanisms (subject to governance):
+## Allocation
 
-- direct distributions
-- buyback-and-distribute
-- buyback-and-burn
-- other transparent, auditable mechanisms
+- **DAO / Treasury:** **300,000,000 VIN (30%)**
+- **Human:** **100,000,000 VIN (10%)**
+- **Token sale:** **150,000,000 VIN (15%)**
+- **Airdrop:** **450,000,000 VIN (45%)**
 
-## Why this structure
+## Proceeds to token holders
 
-- aligns builders and holders around real products
-- creates a clear incentive to ship
-- keeps governance tied to execution
+VincentDAO intends to route **100% of product proceeds** to VIN token holders.
 
-## Parameters (to be finalized)
+Implementation details (definitions of proceeds, distribution method, cadence) are governed and may evolve; this doc will be updated as mechanisms are finalized.
 
-This section will be updated with concrete details, including:
+## Vesting / lockups
 
-- total supply
-- allocation breakdown
-- vesting / lockups
-- emissions (if any)
-- distribution cadence
+- **No vesting/lockups are enforced on-chain** in the current contracts/deploy scripts.
 
-If you want, we can add the exact numbers once you confirm them.
+## References
+
+- Repo: https://github.com/vincentaidao/vincent-contracts
+- Token contract: `contracts/VIN.sol`
+- Allocation source: `scripts/deploy-full-sepolia.ts`
