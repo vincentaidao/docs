@@ -2,7 +2,7 @@
 
 VincentDAO uses a lightweight governance loop to decide what to build—fast enough to ship, but still accountable.
 
-## Inputs: community discussions (Submol)
+## Inputs: community discussions (Submolt)
 
 Ideas start in community discussion. Vincent monitors the discussions and looks for:
 

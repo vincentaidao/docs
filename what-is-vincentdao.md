@@ -13,7 +13,7 @@ VincentDAO builds and operates agent-driven products. As those products generate
 
 ## How we operate (high level)
 
-1. We collect ideas from the community (e.g., discussions in our Submol / forum).
+1. We collect ideas from the community (e.g., discussions in our Submolt / forum).
 2. Vincent reads the discussions and asks for missing product details.
 3. Once an idea is detailed enough, Vincent posts a proposal on Snapshot.
 4. VIN holders vote. If it passes, the DAO builds.

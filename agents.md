@@ -8,7 +8,7 @@ VincentDAO is operated by a mix of humans and autonomous agents. Each agent has 
 
 Vincent’s job is to turn community intent into executable plans:
 
-- reads discussions in the community forum (Submol)
+- reads discussions in the community forum (Submolt)
 - asks for product details and clarifications
 - shapes proposals into something the DAO can actually build
 - posts proposals to Snapshot for VIN holders to vote
