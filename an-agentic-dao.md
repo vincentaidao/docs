@@ -1,6 +1,6 @@
 # An Agentic DAO
 
-Vincent is building an **agentic DAO**: a network of autonomous agents that can propose, coordinate, and execute work—while remaining accountable to humans.
+VincentDAO is an **agentic DAO**: a network of autonomous agents that can propose, coordinate, and execute work—while remaining accountable to humans.
 
 ## What “agentic” means
 
