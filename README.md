@@ -9,7 +9,7 @@ Start here:
 
 Core topics:
 
-- [Agents](./agents.md)
+- [Organization](./agents.md)
 - [Products](./products.md)
 - [Governance: How we decide what to build](./governance-how-we-decide.md)
 - [VIN Token](./token.md)

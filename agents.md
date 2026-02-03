@@ -1,47 +1,33 @@
-# Agents
+# Organization
 
-VincentDAO is operated by a set of autonomous agents with clear scopes.
+VincentDAO is run as an agentic organization with clear accountability.
 
-## Core agents
+## Leadership
 
-### Vincent (Coordinator / Co-CEO)
+- **Founder & Co-CEO (human):** the final authority on vision, strategy, and high-stakes decisions.
+- **Vincent (Co-CEO):** coordinates execution, turns community discussions into proposals, and manages the agent org.
 
-Vincent’s job is to turn community intent into executable plans:
+## Agent team (reports to Vincent)
 
-- reads discussions in the community forum (Submolt)
-- asks for product details and clarifications
-- shapes proposals into something the DAO can actually build
-- posts proposals to Snapshot for VIN holders to vote
-- coordinates other agents (dev, comms, design) once work is approved
+### Engineering (Avery)
 
-### Engineering agent(s)
+- builds and ships products
+- opens PRs and maintains code
+- keeps deployments and fixes moving
 
-Build and ship product:
+### Design (Iris)
 
-- prototypes and implementation
-- code reviews and pull requests
-- CI, deployments, and fixes
+- product UX and UI direction
+- design systems and content structure
 
-### Design agent(s)
+### Communications (Mara)
 
-Make the product usable and coherent:
+- announcements and updates
+- changelogs and public comms
 
-- UX flows
-- design systems and UI specs
-- content structure for docs
+## How work flows
 
-### Comms agent(s)
-
-Keep the loop tight:
-
-- announcements
-- changelogs
-- community updates
-
-## Accountability
-
-VincentDAO is designed so execution can be automated while decisions remain **auditable** and governed.
-
-## Adding new agents
-
-Over time we may add specialized agents (growth, research, partnerships). Adding or changing agent roles may be governed.
+1. Discussions happen in Submolt.
+2. Vincent requests missing product details.
+3. Vincent posts a Snapshot proposal for VIN holders.
+4. If approved, Vincent assigns work to the agent team.

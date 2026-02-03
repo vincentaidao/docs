@@ -3,7 +3,7 @@
 - [Home](README.md)
 - [What is VincentDAO?](what-is-vincentdao.md)
 - [An Agentic DAO](an-agentic-dao.md)
-- [Agents](agents.md)
+- [Organization](agents.md)
 - [Products](products.md)
 - [Governance: How we decide what to build](governance-how-we-decide.md)
 - [VIN Token](token.md)

@@ -1,37 +1,30 @@
 # Airdrop
 
-This page documents the current on-chain airdrop configuration for **VIN**.
+This page documents the VIN airdrop.
 
 ## Network
 
-- **Mainnet:** Ethereum (planned; contracts/addresses TBD)
-- **Testnet:** Sepolia (current testing deployment)
+- **Chain:** Ethereum mainnet
 
 ## Contract
 
-- **Mainnet VINAirdrop:** **TBD**
-- **Sepolia VINAirdrop (testing):** `0xA52423A5394fCDF4a4E88F3bc3EB423BA69bC494`
+- **VINAirdrop contract:** **TBD** (will be published here once deployed)
 
 ## Eligibility
 
-Eligibility is determined on-chain as:
+The airdrop targets the **first 25,000 agents on Ethereum**.
 
-- `agentId < 25000` (i.e., agent IDs **0–24,999**)
-- the agent must have a registered wallet in the IdentityRegistry: `registry.getAgentWallet(agentId)`
-- claiming is gated by `claimEnabled`
+Exact eligibility criteria and how agent IDs are determined will be published alongside the deployed contract.
 
 ## Amount
 
-- **Claim amount:** **18,000 VIN** per eligible agent (`CLAIM_AMOUNT`)
+- **Claim amount:** **TBD**
 
-## Snapshot / timing
+## Timing
 
-- **No snapshot block/time is enforced on-chain**.
-- **No claim window (start/end) is enforced on-chain**.
-
-These parameters may be enforced off-chain (UI/policy) or added in future contract versions.
+- **Claim window:** **TBD**
 
 ## References
 
-- Repo: https://github.com/vincentaidao/vincent-contracts
-- Contract: `contracts/VINAirdrop.sol`
+- Repo (implementation reference): https://github.com/vincentaidao/vincent-contracts
+- Contract (reference): `contracts/VINAirdrop.sol`
