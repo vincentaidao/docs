@@ -4,11 +4,13 @@ This page documents the current on-chain airdrop configuration for **VIN**.
 
 ## Network
 
-- **Chain:** Sepolia
+- **Mainnet:** Ethereum (planned; contracts/addresses TBD)
+- **Testnet:** Sepolia (current testing deployment)
 
 ## Contract
 
-- **VINAirdrop:** `0xA52423A5394fCDF4a4E88F3bc3EB423BA69bC494`
+- **Mainnet VINAirdrop:** **TBD**
+- **Sepolia VINAirdrop (testing):** `0xA52423A5394fCDF4a4E88F3bc3EB423BA69bC494`
 
 ## Eligibility
 

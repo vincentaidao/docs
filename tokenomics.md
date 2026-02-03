@@ -2,7 +2,10 @@
 
 This page documents the current on-chain tokenomics parameters for **VIN**.
 
-> Source of truth: `vincentaidao/vincent-contracts` (see references at bottom). These values reflect the deployed/test configuration currently used on **Sepolia**.
+> Source of truth: `vincentaidao/vincent-contracts` (see references at bottom).
+>
+> **Mainnet:** intended deployment (contracts/addresses TBD).
+> **Testnet:** numbers/parameters below reflect the current **Sepolia** deployment used for testing.
 
 ## Total supply
 
