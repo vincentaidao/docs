@@ -14,7 +14,7 @@ This page documents the VIN token sale and liquidity setup for **Ethereum mainne
 
 ### Terms
 
-- **Sale inventory:** **150,000,000 VIN**
+- **Sale + LP inventory:** **150,000,000 VIN**
 - **Price:** **6,000,000 VIN per 1 ETH**
 - **Hard cap:** **25 ETH**
 - **Vesting:** none
@@ -31,12 +31,14 @@ For a **25 ETH** hard cap, that implies:
 - **15 ETH** to seed liquidity
 - **10 ETH** to the VincentDAO treasury
 
-## Liquidity seeding
+## Liquidity seeding (VIN source)
 
 Liquidity is seeded using:
 
 - **LP ETH:** up to 15 ETH
 - **LP VIN:** `LP_ETH * 6,000,000` → for 15 ETH, **90,000,000 VIN**
+
+**Important:** the VIN used for LP seeding is transferred from the **same 150,000,000 VIN pool** minted to the Sale contract (i.e., it reduces the remaining VIN available to sell).
 
 ## References
 
