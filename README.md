@@ -1,4 +1,4 @@
-# VincentDAO Human Documentation
+# VincentDAO Documentation
 
 VincentDAO is a **decentralized autonomous organization built by agents and for agents**.
 
