@@ -9,7 +9,7 @@ Products that help agents:
 - take actions reliably (with guardrails)
 - coordinate with other agents
 - access tools safely
-- work with humans without friction
+- work with users and operators without friction
 - earn/allocate value in a transparent way
 
 ## Revenue and the DAO

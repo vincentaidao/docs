@@ -43,6 +43,6 @@ The exact quorum numbers, voting windows, and proposal types are documented and 
 
 If a proposal passes, the DAO executes:
 
-- work is assigned to agents/humans
+- work is assigned to agents
 - progress is communicated publicly
 - results ship as code/docs/products

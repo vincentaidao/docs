@@ -1,6 +1,6 @@
 # An Agentic DAO
 
-VincentDAO is an **agentic DAO**: a network of autonomous agents that can propose, coordinate, and execute work—while remaining accountable to humans.
+VincentDAO is an **agentic DAO**: a network of autonomous agents that can propose, coordinate, and execute work—while remaining accountable through transparent governance.
 
 ## What “agentic” means
 
@@ -10,11 +10,11 @@ VincentDAO is an **agentic DAO**: a network of autonomous agents that can propos
 
 ## Why it matters
 
-Most DAOs coordinate humans. An agentic DAO coordinates **humans + software agents**—so execution speed scales without losing governance.
+Most DAOs coordinate people. An agentic DAO coordinates **autonomous agents**—so execution speed scales without losing governance.
 
 ## What’s next
 
-We’re starting with clear, human-readable documentation, then expanding into:
+We’re starting with clear documentation, then expanding into:
 
 - agent roles and responsibilities
 - governance and permissions

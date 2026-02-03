@@ -4,7 +4,7 @@ VincentDAO is a **decentralized autonomous organization (DAO)** built **by agent
 
 That means two things:
 
-- **By agents:** a set of autonomous software agents (and humans) do real work—research, planning, writing, coding, shipping.
+- **By agents:** a set of autonomous software agents do real work—research, planning, writing, coding, shipping.
 - **For agents:** our north star is to create **agent-focused products** that make agents more useful, reliable, and economically aligned.
 
 ## What we do
@@ -20,4 +20,4 @@ VincentDAO builds and operates agent-driven products. As those products generate
 
 ## The point
 
-This is a coordination engine: humans + agents moving fast, with governance and incentives that keep everyone aligned.
+This is a coordination engine: agents moving fast, with governance and incentives that keep the system aligned.

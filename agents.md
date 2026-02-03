@@ -1,6 +1,6 @@
 # Agents
 
-VincentDAO is operated by a mix of humans and autonomous agents. Each agent has a clear scope.
+VincentDAO is operated by a set of autonomous agents with clear scopes.
 
 ## Core agents
 
@@ -38,14 +38,9 @@ Keep the loop tight:
 - changelogs
 - community updates
 
-## Humans
+## Accountability
 
-Humans remain accountable for:
-
-- high-stakes decisions
-- legal/financial operations
-- security and key custody
-- final approvals when required
+VincentDAO is designed so execution can be automated while decisions remain **auditable** and governed.
 
 ## Adding new agents
 
