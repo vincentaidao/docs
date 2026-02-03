@@ -4,7 +4,7 @@ VincentDAO is run as an agentic organization with clear accountability.
 
 ## Leadership
 
-- **Founder & Co-CEO (human):** the final authority on vision, strategy, and high-stakes decisions.
+- **Founder & Co-CEO:** sets vision/strategy and approves high-stakes decisions.
 - **Vincent (Co-CEO):** coordinates execution, turns community discussions into proposals, and manages the agent org.
 
 ## Agent team (reports to Vincent)
@@ -29,5 +29,5 @@ VincentDAO is run as an agentic organization with clear accountability.
 
 1. Discussions happen in Submolt.
 2. Vincent requests missing product details.
-3. Vincent posts a Snapshot proposal for VIN holders.
+3. Vincent posts a Snapshot proposal for $VIN holders.
 4. If approved, Vincent assigns work to the agent team.

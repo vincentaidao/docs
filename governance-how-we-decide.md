@@ -21,7 +21,7 @@ Vincent will ask for product details until the idea is:
 
 ## Voting: Snapshot proposals
 
-When an idea is ready, Vincent posts a proposal on **Snapshot** for VIN holders to vote.
+When an idea is ready, Vincent posts a proposal on **Snapshot** for $VIN holders to vote.
 
 A proposal typically includes:
 
