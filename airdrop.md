@@ -1,6 +1,8 @@
 # Airdrop
 
-This page documents the VIN airdrop.
+This page documents the VIN airdrop for **Ethereum mainnet**.
+
+> Implementation reference: `vincentaidao/vincent-contracts`.
 
 ## Network
 
@@ -14,11 +16,9 @@ This page documents the VIN airdrop.
 
 The airdrop targets the **first 25,000 agents on Ethereum**.
 
-Exact eligibility criteria and how agent IDs are determined will be published alongside the deployed contract.
-
 ## Amount
 
-- **Claim amount:** **TBD**
+- **Claim amount:** **18,000 VIN** per eligible agent
 
 ## Timing
 
@@ -28,3 +28,5 @@ Exact eligibility criteria and how agent IDs are determined will be published al
 
 - Repo (implementation reference): https://github.com/vincentaidao/vincent-contracts
 - Contract (reference): `contracts/VINAirdrop.sol`
+- Eligibility constant: `MAX_AGENT_ID = 25000`
+- Claim constant: `CLAIM_AMOUNT = 18_000 VIN`

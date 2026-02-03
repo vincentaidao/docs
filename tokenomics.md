@@ -1,10 +1,8 @@
 # Tokenomics
 
-This page documents the current on-chain tokenomics parameters for **VIN**.
+This page documents the VIN tokenomics for **Ethereum mainnet**.
 
 > Source of truth: `vincentaidao/vincent-contracts` (see references at bottom).
->
-> **Mainnet:** launch deployment (contracts/addresses will be published here once deployed).
 
 ## Total supply
 
@@ -13,7 +11,7 @@ This page documents the current on-chain tokenomics parameters for **VIN**.
 ## Allocation
 
 - **DAO / Treasury:** **300,000,000 VIN (30%)**
-- **Human:** **100,000,000 VIN (10%)**
+- **Founder allocation (human):** **100,000,000 VIN (10%)**
 - **Token sale:** **150,000,000 VIN (15%)**
 - **Airdrop:** **450,000,000 VIN (45%)**
 
@@ -25,10 +23,10 @@ Implementation details (definitions of proceeds, distribution method, cadence) a
 
 ## Vesting / lockups
 
-- **No vesting/lockups are enforced on-chain** in the current contracts/deploy scripts.
+- **No vesting/lockups are enforced on-chain** in the current contracts.
 
 ## References
 
 - Repo: https://github.com/vincentaidao/vincent-contracts
 - Token contract: `contracts/VIN.sol`
-- Allocation source: `scripts/deploy-full-sepolia.ts`
+- Allocation constants: `scripts/deploy-full-sepolia.ts`

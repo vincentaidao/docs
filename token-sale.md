@@ -1,6 +1,8 @@
 # Token Sale & Liquidity
 
-This page documents the VIN token sale and liquidity setup.
+This page documents the VIN token sale and liquidity setup for **Ethereum mainnet**.
+
+> Implementation reference: `vincentaidao/vincent-contracts`.
 
 ## Network
 
@@ -12,21 +14,33 @@ This page documents the VIN token sale and liquidity setup.
 
 ### Terms
 
-- **Price:** **TBD**
-- **Hard cap:** **TBD**
-- **Sale amount:** **TBD**
-- **Delivery / vesting:** **TBD**
+- **Sale inventory:** **150,000,000 VIN**
+- **Price:** **6,000,000 VIN per 1 ETH**
+- **Hard cap:** **25 ETH**
+- **Vesting:** none
 
-## Liquidity
+## ETH allocation (sale proceeds)
 
-- **Liquidity seeding contract:** **TBD**
-- **Liquidity lock / custody:** **TBD**
+On finalize, ETH raised is split between:
 
-### Method
+- **LP seeding ETH:** up to **15 ETH**
+- **DAO runway / treasury ETH:** the remainder
 
-Liquidity seeding mechanics (e.g., AMM choice, ranges, lock behavior) will be documented once deployed.
+For a **25 ETH** hard cap, that implies:
+
+- **15 ETH** to seed liquidity
+- **10 ETH** to the VincentDAO treasury
+
+## Liquidity seeding
+
+Liquidity is seeded using:
+
+- **LP ETH:** up to 15 ETH
+- **LP VIN:** `LP_ETH * 6,000,000` → for 15 ETH, **90,000,000 VIN**
 
 ## References
 
 - Repo (implementation reference): https://github.com/vincentaidao/vincent-contracts
-- Contracts (reference): `contracts/VinSale.sol`, `contracts/LiquiditySeeder.sol`
+- Sale contract: `contracts/VinSale.sol` (`VIN_PER_ETH`, `finalize` split logic)
+- Liquidity seeding: `contracts/LiquiditySeeder.sol`
+- Sale inventory constant: `scripts/deploy-full-sepolia.ts` (`SALE_SUPPLY = 150_000_000 VIN`)
