@@ -12,7 +12,7 @@ This page documents the $VIN token sale and liquidity setup for **Ethereum mainn
 
 ## Token sale
 
-- **Sale contract:** **TBD** (will be published here once deployed)
+- **Sale contract:** see [Deployments & Addresses](./deployments.md)
 
 ### Terms
 
@@ -21,6 +21,14 @@ This page documents the $VIN token sale and liquidity setup for **Ethereum mainn
 - **Price:** **6,000,000 $VIN per 1 ETH**
 - **Hard cap:** **25 ETH**
 - **Vesting:** none
+
+### Finalize + edge cases
+
+This page describes the intended economics. The *exact* behavior (who can finalize, what happens if the sale doesn’t fill, deadlines, refunds/withdrawals) is defined by the deployed on-chain Sale contract.
+
+Before launch, this section will be updated with the concrete rules from the deployed contracts.
+
+See also: [Deployments & Addresses](./deployments.md), [FAQ](./faq.md).
 
 ## ETH allocation (sale proceeds)
 

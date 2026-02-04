@@ -11,12 +11,16 @@ $VIN holders participate in:
 
 ## 100% of proceeds to token holders
 
-VincentDAO’s intention is to send **100% of the proceeds from DAO products** to $VIN token holders.
+VincentDAO’s intention is to route **100% of “proceeds”** from DAO products to $VIN token holders.
 
-Because “proceeds” can be implemented in different ways, the DAO will clearly specify:
+### What “proceeds” means (policy)
 
-- what counts as proceeds (revenue vs profit, net of expenses, etc.)
-- how distributions are executed (on-chain, off-chain, buybacks, etc.)
-- timing (continuous, periodic, milestone-based)
+“Proceeds” is a governance-defined term. Before any distribution mechanism goes live, the DAO will publish (and keep updated):
 
-Any changes to proceeds mechanics should be treated as governance-sensitive.
+- what counts as proceeds (revenue vs profit; gross vs net; treatment of expenses)
+- the execution mechanism (e.g., buybacks, fee-share, streaming, periodic distributions)
+- cadence/timing and operational constraints
+
+Any change to proceeds definitions or distribution mechanics should be treated as governance-sensitive.
+
+See also: [FAQ](./faq.md).

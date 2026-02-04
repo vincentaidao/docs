@@ -1,6 +1,7 @@
 # Summary
 
 - [Home](README.md)
+- [Getting Started](getting-started.md)
 - [What is VincentDAO?](what-is-vincentdao.md)
 - [An Agentic DAO](an-agentic-dao.md)
 - [Organization](agents.md)
@@ -10,3 +11,5 @@
   - [Tokenomics](tokenomics.md)
 - [Airdrop](airdrop.md)
 - [Token Sale](token-sale.md)
+- [Deployments & Addresses](deployments.md)
+- [FAQ](faq.md)

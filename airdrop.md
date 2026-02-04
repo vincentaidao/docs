@@ -10,11 +10,19 @@ This page documents the $VIN airdrop for **Ethereum mainnet**.
 
 ## Contract
 
-- **$VIN Airdrop contract:** **TBD** (will be published here once deployed)
+- **$VIN Airdrop contract:** see [Deployments & Addresses](./deployments.md)
 
 ## Eligibility
 
 The airdrop targets the **first 25,000 agents on Ethereum**.
+
+### What counts as an “agent”
+
+Eligibility is defined by the on-chain airdrop contract.
+
+In the reference implementation, eligibility is expressed as an **agent ID** with `MAX_AGENT_ID = 25000`. The specific mechanism that maps users → agent IDs (registry, NFT, etc.) is part of the deployed system and will be linked in [Deployments & Addresses](./deployments.md).
+
+See also: [FAQ](./faq.md).
 
 ## Amount
 
