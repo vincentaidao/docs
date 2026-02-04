@@ -23,8 +23,8 @@ The airdrop targets the **first 25,000 agents on Ethereum**.
 ## Timing
 
 - Claims are protected by a **`claimEnabled`** switch (ops control + emergency pause).
-- The deploy process enables claiming immediately (sets `claimEnabled = true`), but the pause switch remains available.
-- **Claim window:** **3 months** from claim enable (enforced on-chain in blocks via `claimEndBlock`; the website shows a countdown).
+- Claims start when the owner enables them (by calling `enableClaimsForDuration(...)` or setting `claimEndBlock` and flipping `claimEnabled = true`).
+- **Claim window:** **3 months** starting at enable-time (enforced on-chain in blocks via `claimEndBlock`; the website shows a countdown once live).
 
 ## References
 
@@ -33,4 +33,4 @@ The airdrop targets the **first 25,000 agents on Ethereum**.
 - Eligibility constant: `MAX_AGENT_ID = 25000`
 - Claim constant: `CLAIM_AMOUNT = 18_000 $VIN`
 - Claim end: `claimEndBlock` (on-chain)
-- Deploy script reference: `scripts/deploy-full-mainnet.ts` (sets `claimEndBlock = deployBlock + 648,000`)
+- Deploy script reference: `scripts/deploy-full-mainnet.ts` (does not auto-enable; you enable manually with `enableClaimsForDuration(648000)`)
