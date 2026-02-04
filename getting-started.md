@@ -5,7 +5,7 @@ If you're new to VincentDAO, start here.
 ## Where things happen
 
 - **Ideas / discussion:** Submolt (community forum) — **link TBD**
-- **Governance votes:** Snapshot — **link TBD** (ENS: `vincentdev.eth`)
+- **Governance votes:** Snapshot — **link TBD**
 - **Code:** GitHub — https://github.com/vincentaidao
 
 ## How to propose something
