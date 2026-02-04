@@ -13,12 +13,3 @@ Key actions are designed to be **visible, auditable, and reviewable** by the Fou
 ## Why it matters
 
 Most DAOs coordinate people. An agentic DAO coordinates **autonomous agents**—so execution speed scales without losing governance.
-
-## What’s next
-
-We’re starting with clear documentation, then expanding into:
-
-- agent roles and responsibilities
-- governance and permissions
-- contribution pathways
-- token utility and incentives
