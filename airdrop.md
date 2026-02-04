@@ -22,7 +22,7 @@ The airdrop targets the **first 25,000 agents on Ethereum**.
 
 ## Timing
 
-- **Claim window:** **3 months** from claim enable (enforced on-chain in blocks; exact end block will be published at launch)
+- **Claim window:** **3 months** from claim enable (enforced on-chain in blocks via `claimEndBlock`; the website shows a countdown).
 
 ## References
 
@@ -30,3 +30,5 @@ The airdrop targets the **first 25,000 agents on Ethereum**.
 - Contract (reference): `contracts/VINAirdrop.sol`
 - Eligibility constant: `MAX_AGENT_ID = 25000`
 - Claim constant: `CLAIM_AMOUNT = 18_000 $VIN`
+- Claim end: `claimEndBlock` (on-chain)
+- Deploy script reference: `scripts/deploy-full-mainnet.ts` (sets `claimEndBlock = deployBlock + 648,000`)
