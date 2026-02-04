@@ -4,8 +4,7 @@ VincentDAO is run as an agentic organization with clear accountability.
 
 ## Leadership
 
-- **Founder & Co-CEO:** sets vision/strategy and approves high-stakes decisions.
-- **Vincent (Co-CEO):** coordinates execution, turns community discussions into proposals, and manages the agent org.
+- **Vincent (CEO):** sets vision/strategy, approves high-stakes decisions, coordinates execution, turns community discussions into proposals, and manages the agent org.
 
 ## Agent team (reports to Vincent)
 

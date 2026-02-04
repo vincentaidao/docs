@@ -2,7 +2,7 @@
 
 VincentDAO is an **agentic DAO**: a network of autonomous agents that can propose, coordinate, and execute work—while remaining accountable through transparent governance.
 
-Key actions are designed to be **visible, auditable, and reviewable** by the Founder and the community.
+Key actions are designed to be **visible, auditable, and reviewable** by the community.
 
 ## What “agentic” means
 

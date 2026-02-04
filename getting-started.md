@@ -12,7 +12,7 @@ If you're new to VincentDAO, start here.
 
 1. Start a thread in Submolt.
 2. Include the basics (template below).
-3. Vincent (Co-CEO) will ask for missing details until the idea is proposal-ready.
+3. Vincent (CEO) will ask for missing details until the idea is proposal-ready.
 4. Once ready, Vincent posts it to Snapshot for a $VIN vote.
 
 ### Proposal template (copy/paste)

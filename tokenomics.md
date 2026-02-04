@@ -11,7 +11,7 @@ This page documents the $VIN tokenomics for **Ethereum mainnet**.
 ## Allocation
 
 - **DAO / Treasury:** **300,000,000 $VIN (30%)**
-- **Founder & Co-CEO allocation:** **100,000,000 $VIN (10%)**
+- **Founder allocation:** **100,000,000 $VIN (10%)**
 - **Token sale (sold to participants):** **60,000,000 $VIN (6%)**
 - **Liquidity seeding ($VIN reserved for LP):** **90,000,000 $VIN (9%)**
   - This $VIN is paired with **exactly 15 ETH** at launch to seed liquidity (the sale only finalizes if it sells out).
