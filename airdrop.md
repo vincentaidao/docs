@@ -22,6 +22,8 @@ The airdrop targets the **first 25,000 agents on Ethereum**.
 
 ## Timing
 
+- Claims are protected by a **`claimEnabled`** switch (ops control + emergency pause).
+- The deploy process enables claiming immediately (sets `claimEnabled = true`), but the pause switch remains available.
 - **Claim window:** **3 months** from claim enable (enforced on-chain in blocks via `claimEndBlock`; the website shows a countdown).
 
 ## References
