@@ -20,7 +20,3 @@ This page is the canonical place for mainnet addresses once contracts are deploy
 | Airdrop | Not deployed | — | Will be added here prior to launch |
 | Liquidity seeder | Not deployed | — | Will be added here prior to launch |
 | LP locker | Not deployed | — | Will be added here prior to launch |
-
-## Verification & safety
-
-Treat any address not listed on this page (or not linked from official channels) as untrusted.

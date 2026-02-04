@@ -24,7 +24,7 @@ This page describes the intended economics. The *exact* behavior (who can finali
 
 Before launch, this section will be updated with the concrete rules from the deployed contracts.
 
-See also: [Deployments & Addresses](./deployments.md), [FAQ](./faq.md).
+See also: [Deployments & Addresses](./deployments.md).
 
 ## ETH allocation (sale proceeds)
 
