@@ -12,20 +12,26 @@ This page documents the $VIN token sale and liquidity setup for **Ethereum mainn
 
 ### Terms
 
-- **Sale inventory (sold to participants):** **60,000,000 $VIN**
-- **LP $VIN reserve (used to seed liquidity):** **90,000,000 $VIN**
-- **Price:** **6,000,000 $VIN per 1 ETH**
-- **Hard cap:** **25 ETH**
+- **Sale inventory (sold to participants):** **300,000,000 VIN** (30% of total supply)
+- **Target raise / hard cap:** **60 ETH**
+- **Implied sale price:** **5,000,000 VIN per 1 ETH**
 - **Vesting:** none
 
-### ETH allocation (sale proceeds)
+### Liquidity seeding
 
-- Up to **15 ETH** is used for liquidity.
-- The remainder goes to the DAO treasury (at the **25 ETH** cap: **10 ETH**).
+- **ETH to Uniswap LP (locked):** **30 ETH**
+- **ETH to DAO treasury:** **30 ETH**
+- **VIN paired with 30 ETH to match the sale price:** **150,000,000 VIN** (from the LP VIN reserve)
+
+> If the Uniswap LP is seeded with **30 ETH**, and the sale raised **60 ETH** at the sale price, then seeding at the same price requires pairing **half the sold VIN amount** (i.e. 150,000,000 VIN).
 
 ### Liquidity lock
 
 Liquidity is locked: the LP position is minted to a **permanent locker** (no withdrawals).
+
+### Airdrop timing note
+
+The **Agent Stimmy Drop** is intended to happen **after the sale completes** and **after the Uniswap pool is live** (operationally enabled later), to reduce the risk of immediate post-sale sell pressure.
 
 ### Finalize + edge cases
 

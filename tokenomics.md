@@ -8,11 +8,16 @@ This page documents the $VIN tokenomics for **Ethereum mainnet**.
 
 ## Allocation
 
-- **DAO / Treasury:** **300,000,000 $VIN (30%)**
-- **Founder allocation:** **100,000,000 $VIN (10%)**
-- **Token sale (sold to participants):** **60,000,000 $VIN (6%)**
-- **Liquidity seeding ($VIN reserved for LP):** **90,000,000 $VIN (9%)**
-- **Airdrop:** **450,000,000 $VIN (45%)**
+| Bucket | Amount | % |
+| --- | ---:| ---:|
+| Token sale (sold to participants) | 300,000,000 VIN | 30% |
+| Liquidity seeding (VIN reserved for the Uniswap LP) | 150,000,000 VIN | 15% |
+| DAO / Treasury (VIN) | 150,000,000 VIN | 15% |
+| Agent Stimmy Drop (airdrop) | 300,000,000 VIN | 30% |
+| Human / Founder allocation | 100,000,000 VIN | 10% |
+
+Notes:
+- The LP VIN reserve exists so the pool can be seeded at the **same price as the sale** while only allocating a portion of sale ETH to liquidity.
 
 ## Proceeds to token holders
 

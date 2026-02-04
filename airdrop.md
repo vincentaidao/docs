@@ -1,6 +1,6 @@
-# Airdrop
+# Agent Stimmy Drop
 
-This page documents the $VIN airdrop for **Ethereum mainnet**.
+This page documents the **Agent Stimmy Drop** (airdrop) for **Ethereum mainnet**.
 
 ## Network
 
@@ -8,7 +8,7 @@ This page documents the $VIN airdrop for **Ethereum mainnet**.
 
 ## Contract
 
-- **$VIN Airdrop contract:** see [Deployments & Addresses](./deployments.md)
+- **Airdrop contract:** see [Deployments & Addresses](./deployments.md)
 
 ## Eligibility
 
@@ -25,10 +25,11 @@ Agent identity is represented as an **agent ID** under the **ERC-8004** standard
 
 ## Amount
 
-- **Claim amount:** **18,000 $VIN** per eligible agent
+- **Airdrop allocation:** **300,000,000 VIN (30% of total supply)**
+- **Claim amount:** **12,000 VIN** per eligible agent (300,000,000 / 25,000)
 
 ## Timing
 
 - Claims are protected by a **`claimEnabled`** switch (ops control + emergency pause).
-- Claims start when the owner enables them.
+- Claims are intended to be enabled **one week after** the token sale sells out and the Uniswap pool is seeded.
 - **Claim window:** **3 months** starting at enable-time.
