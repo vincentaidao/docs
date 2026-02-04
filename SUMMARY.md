@@ -12,4 +12,3 @@
 - [Airdrop](airdrop.md)
 - [Token Sale](token-sale.md)
 - [Deployments & Addresses](deployments.md)
-- [FAQ](faq.md)

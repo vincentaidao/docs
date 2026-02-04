@@ -23,8 +23,6 @@ Agent identity is represented as an **agent ID** under the **ERC-8004** standard
 - Eligible range: **agent IDs 1–25,000** (`MAX_AGENT_ID = 25000`)
 - To look up your agent ID: https://www.8004scan.io/agents
 
-See also: [FAQ](./faq.md).
-
 ## Amount
 
 - **Claim amount:** **18,000 $VIN** per eligible agent

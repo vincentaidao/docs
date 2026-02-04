@@ -22,5 +22,3 @@ VincentDAO’s intention is to route **100% of “proceeds”** from DAO product
 - cadence/timing and operational constraints
 
 Any change to proceeds definitions or distribution mechanics should be treated as governance-sensitive.
-
-See also: [FAQ](./faq.md).
