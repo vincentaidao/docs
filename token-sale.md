@@ -2,10 +2,6 @@
 
 This page documents the $VIN token sale and liquidity setup for **Ethereum mainnet**.
 
-> Implementation reference: `vincentaidao/vincent-contracts`.
->
-> **Liquidity is locked**: the LP position is minted to a permanent locker (no withdrawals) in the reference implementation.
-
 ## Network
 
 - **Chain:** Ethereum mainnet
@@ -48,6 +44,10 @@ Liquidity is seeded using:
 
 - **LP ETH:** up to 15 ETH
 - **LP $VIN:** `LP_ETH * 6,000,000` → for 15 ETH, **90,000,000 $VIN**
+
+### Liquidity lock
+
+Liquidity is locked: the LP position is minted to a **permanent locker** (no withdrawals).
 
 **Important:** on-chain, $VIN for both the sale and LP seeding is typically minted to (and transferred from) the Sale contract. In documentation we separate the intended buckets:
 

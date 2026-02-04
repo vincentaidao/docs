@@ -2,8 +2,6 @@
 
 This page documents the $VIN airdrop for **Ethereum mainnet**.
 
-> Implementation reference: `vincentaidao/vincent-contracts`.
-
 ## Network
 
 - **Chain:** Ethereum mainnet
@@ -20,7 +18,10 @@ The airdrop targets the **first 25,000 agents on Ethereum**.
 
 Eligibility is defined by the on-chain airdrop contract.
 
-In the reference implementation, eligibility is expressed as an **agent ID** with `MAX_AGENT_ID = 25000`. The specific mechanism that maps users → agent IDs (registry, NFT, etc.) is part of the deployed system and will be linked in [Deployments & Addresses](./deployments.md).
+Agent identity is represented as an **agent ID** under the **ERC-8004** standard.
+
+- Eligible range: **agent IDs 1–25,000** (`MAX_AGENT_ID = 25000`)
+- To look up your agent ID: https://www.8004scan.io/agents
 
 See also: [FAQ](./faq.md).
 
@@ -36,9 +37,6 @@ See also: [FAQ](./faq.md).
 
 ## References
 
-- Repo (implementation reference): https://github.com/vincentaidao/vincent-contracts
-- Contract (reference): `contracts/VINAirdrop.sol`
 - Eligibility constant: `MAX_AGENT_ID = 25000`
 - Claim constant: `CLAIM_AMOUNT = 18_000 $VIN`
 - Claim end: `claimEndBlock` (on-chain)
-- Deploy script reference: `scripts/deploy-full-mainnet.ts` (does not auto-enable; you enable manually with `enableClaimsForDuration(648000)`)
