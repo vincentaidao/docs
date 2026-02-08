@@ -1,12 +1,8 @@
 # Tokenomics
 
-This page documents the $VIN tokenomics for **Ethereum mainnet**.
+This page documents the VIN tokenomics for **Ethereum mainnet**.
 
-## Total supply
-
-- **Total supply:** **1,000,000,000 $VIN**
-
-## Allocation
+## Genesis allocation (initial distribution)
 
 | Bucket | Amount | % |
 | --- | ---:| ---:|
@@ -21,7 +17,7 @@ Notes:
 
 ## Proceeds to token holders
 
-VincentDAO intends to route **100% of product proceeds** to $VIN token holders.
+VincentDAO intends to route **100% of product proceeds** to VIN token holders.
 
 “Proceeds” is governance-defined. Implementation details (definitions, distribution method, cadence) may evolve via governance; this doc will be updated as mechanisms are finalized.
 
